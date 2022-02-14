@@ -1,7 +1,7 @@
-﻿using DIContainerTest.Target;
+﻿using DIContainer.Target;
 using System;
 
-namespace DIContainerTest
+namespace DIContainer
 {
   class Program
   {
