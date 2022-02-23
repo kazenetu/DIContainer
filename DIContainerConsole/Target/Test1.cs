@@ -1,4 +1,4 @@
-﻿namespace DIContainer.Target
+﻿namespace DIContainerConsole.Target
 {
   class Test1:ITest1
   {
