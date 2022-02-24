@@ -1,4 +1,4 @@
-﻿namespace DIContainer.Target
+﻿namespace DIContainerConsole.Target
 {
   interface ITest1
   {
