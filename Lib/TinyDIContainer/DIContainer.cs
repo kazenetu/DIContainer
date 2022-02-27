@@ -47,7 +47,7 @@ namespace TinyDIContainer
         var classType = Dict[keyName];
         return Activator.CreateInstance(classType) as U;
       }
-      throw new Exception($"{nameof(keyName)} Is Not Exists");
+      throw new Exception($"{typeof(U).Name} Is Not Exists");
     }
   }
 }
