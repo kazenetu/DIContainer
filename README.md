@@ -10,7 +10,7 @@ C#での簡易的なDIコンテナのプログラムです。
 * ローカル実行  
     dotnet runで実行する。  
     ```sh
-    dotnet run --project ./DIContainerConsole/DIContainerConsole.csproj
+    dotnet run --project ./src/DIContainerConsole/DIContainerConsole.csproj
     ```  
 
 * Dockerコンテナでの実行  
@@ -43,7 +43,7 @@ C#での簡易的なDIコンテナのプログラムです。
       1. コンテナ内で実行 
           1. dotnet runで実行する。
               ```sh
-              dotnet run --project ./DIContainerConsole/DIContainerConsole.csproj
+              dotnet run --project ./src/DIContainerConsole/DIContainerConsole.csproj
               ```
 
           1. コンテナから離脱する。
@@ -60,7 +60,7 @@ C#での簡易的なDIコンテナのプログラムです。
 * ローカル実行  
     dotnet runで実行する。  
     ```sh
-    dotnet test ./DIContainerTest/DIContainerTest.csproj
+    dotnet test ./src/DIContainerTest/DIContainerTest.csproj
     ```  
 
 * Dockerコンテナでの実行  
@@ -93,7 +93,7 @@ C#での簡易的なDIコンテナのプログラムです。
       1. コンテナ内で実行 
           1. dotnet runで実行する。
               ```sh
-              dotnet test ./DIContainerTest/DIContainerTest.csproj
+              dotnet test ./src/DIContainerTest/DIContainerTest.csproj
               ```
 
           1. コンテナから離脱する。
